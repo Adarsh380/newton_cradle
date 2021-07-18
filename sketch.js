@@ -77,7 +77,7 @@ function keyPressed() {
 
 	if (keyCode==UP_ARROW) {
 		
-		var forceMagnitude = 0.013 * bob1.mass;
+		var forceMagnitude = 0.01 * bob1.mass;
 		Matter.Body.applyForce(bob1, bob1.position, { x:-forceMagnitude, y:forceMagnitude });
 	}
 }
